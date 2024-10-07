@@ -1,0 +1,17 @@
+{
+  "name": "wdiotest",
+  "type": "module",
+  "devDependencies": {
+    "@wdio/cli": "^9.1.2",
+    "@wdio/jasmine-framework": "^9.1.2",
+    "@wdio/local-runner": "^9.1.2",
+    "@wdio/spec-reporter": "^9.1.2"
+  },
+  "scripts": {
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "dependencies": {
+    "puppeteer": "^23.5.1",
+    "puppeteer-core": "^22.15.0"
+  }
+}
